@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+button {
+  outline: none;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.minesweeper {
+  font-size: 20px;
+  background-color: #c0c0c0;
+}
+
+
+.game {
+  padding: 10px;
+  border-top: 7px solid white;
+  border-left: 7px solid white;
+}
+
+.board {
+  border-top: 6px solid #808080;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  border-left: 6px solid #808080;
+  width: 268px;
+  height: 268px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space {
+  border-top: 4px solid white;
+  border-right: 4px solid #808080;
+  border-bottom: 4px solid #808080;
+  border-left: 4px solid white;
+  flex: 0 0 32px;
+  height: 32px;
+}
+
+.empty {
+  border-right: 2px dotted #000000;
+  border-bottom: 2px dotted #000000;
+  flex: 0 0 32px;
+  height: 32px;
+}
+
+.one {
+  color: blue;
+  font-family: 'VT323', monospace;
+  border-right: 2px dotted #000000;
+  border-bottom: 2px dotted #000000;
+  flex: 0 0 32px;
+  height: 32px;
+}
+
+.two {
+  color: green;
+  font-family: 'VT323', monospace;
+  border-right: 2px dotted #000000;
+  border-bottom: 2px dotted #000000;
+  flex: 0 0 32px;
+  height: 32px;
+}
+
+.three {
+  color:red;
+  font-family: 'VT323', monospace;
+  border-right: 2px dotted #000000;
+  border-bottom: 2px dotted #000000;
+  flex: 0 0 32px;
+  height: 32px;
+}
+.bomb {
+  border-right: 2px dotted #000000;
+  border-bottom: 2px dotted #000000;
+  flex: 0 0 32px;
+  height: 32px;
+}
+
+img {
+  height: 30px;
+}
+
+
+
+
+
+
