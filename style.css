@@ -9,6 +9,7 @@ html, body {
 body {
   font-size: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   
@@ -19,6 +20,8 @@ main {
   flex-direction: column;
   
 }
+
+
 
 button {
   outline: none;
@@ -103,7 +106,13 @@ img {
   height: 30px;
 }
 
-
+footer{
+  border:3px solid crimson;
+  background-color: crimson;
+  color: white;
+  margin:5px;
+  padding:2px;
+}
 
 
 
